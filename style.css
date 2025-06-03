@@ -1,0 +1,9 @@
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.card-text{
+    justify-content: right;
+   text-align: right; 
+}
