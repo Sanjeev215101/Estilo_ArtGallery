@@ -1,9 +1,9 @@
-.card-body{
+.card-body {
     display: flex;
-    align-items: center;
-    justify-content: right;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
-.card-text{
-    justify-content: right;
-   text-align: right; 
+.card-text {
+    text-align: left;
 }
