@@ -1,2 +1,2 @@
 # Estilo_ArtGallery
-It's an online guide for arts style 
+IT an online art gallery showing different types and era of art style [further content will be added]  

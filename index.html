@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- first tags-->
+<title>Estilo | Online Art Gallery</title>
+<meta name="title" content="Estilo | Online Art Gallery">
+<meta name="description" content="Discover Estilo, a beautifully designed online art gallery showcasing Impressionism, Renaissance, Abstract, and Surrealist artworks. Explore, engage, and experience creativity.">
+<meta name="keywords" content="Estilo, Art Gallery, Online Art, Impressionism, Renaissance, Surrealism, Abstract Art, Digital Art, Bootstrap Gallery, Paintings, Creative Art, Visual Art, Contemporary Art">
+<meta name="author" content="Sanjeev Bhardwaj">
+<meta name="robots" content="index, follow" />
+
+<!-- second tage -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sanjeev215101.github.io/Estilo_ArtGallery/">
+<meta property="og:title" content="Estilo | Online Art Gallery">
+<meta property="og:description" content="A virtual art gallery featuring Impressionism, Abstract, Surrealism, and more. Explore timeless pieces and modern creativity.">
+<meta property="og:image" content="https://sanjeev215101.github.io/Estilo_ArtGallery/assets/images/estilo-og-image.png">
+
+<!--  -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://sanjeev215101.github.io/Estilo_ArtGallery/">
+<meta name="twitter:title" content="Estilo | Online Art Gallery">
+<meta name="twitter:description" content="A virtual gallery for lovers of Impressionism, Abstract, Surrealism, and other forms of art.">
+<meta name="twitter:image" content="https://yourwebsite.com/assets/images/estilo-og-image.png">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+/>
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-brush"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04M4.705 11.912a1.2 1.2 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.4 3.4 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3 3 0 0 0 .126-.75zm1.44.026c.12-.04.277-.1.458-.183a5.1 5.1 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005zm3.582-3.043.002.001h-.002z"
+            />
+          </svg>
+          Estilo</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+    Genres
+  </a>
+  <ul class="dropdown-menu dropdown-menu-dark p-3" style="min-width: 300px;">
+    <div class="row">
+      <div class="col-6"><a class="dropdown-item" href="#">Impressionism</a></div>
+      <div class="col-6"><a class="dropdown-item" href="#">Renaissance</a></div>
+      <div class="col-6"><a class="dropdown-item" href="#">Abstract</a></div>
+      <div class="col-6"><a class="dropdown-item" href="#">Surrealism</a></div>
+    </div>
+  </ul>
+</li>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Artist,Genre,Mood"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+
+    <div class="px-4 py-5 my-5 text-center">
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/seventh1.png" height="780" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/sec1.png" height="780" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/thrd1.png" height="780" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        <path
+          d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04M4.705 11.912a1.2 1.2 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.4 3.4 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3 3 0 0 0 .126-.75zm1.44.026c.12-.04.277-.1.458-.183a5.1 5.1 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005zm3.582-3.043.002.001h-.002z"
+        />
+      </svg>
+      <h1 class="display-5 fw-bold text-body-emphasis">Estilo</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Welcome to Estilo Discover a world of creativity, color, and
+          imagination. Our online art gallery showcases a curated collection of
+          inspiring artwork from emerging and established artists around the
+          globe. Whether you're an art enthusiast, a collector, or simply
+          looking to brighten your space, you'll find something that speaks to
+          your soul. Explore. Experience. Enjoy. Dive into stunning paintings,
+          digital creations, and mixed media masterpieces — all from the comfort
+          of your home.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+            Log in
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Sign up
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm h-100">
+          <img src="./images/sec1.png" class="card-img-top" alt="..." />
+          <title>Impressionism</title>
+          <rect width="100%" height="100%" fill="#55595c"></rect>
+          <text x="50%" y="50%" fill="#eceeef" dy=".3em">Impressionism</text>
+          </svg>
+          <div class="card-body">
+            <p class="card-text">
+              Impressionism is a 19th-century art movement that originated in France, characterized by visible brush strokes, open composition, and an emphasis on capturing light and its changing qualities.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+  <button type="button" class="btn btn-sm btn-outline-primary">
+    <i class="bi bi-eye"></i> View
+  </button>
+  <button type="button" class="btn btn-sm btn-outline-danger">
+    <i class="bi bi-heart"></i> Like
+  </button>
+</div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm h-100">
+          <img src="./images/thrd1.png" class="resun" alt="" />
+            <title>Renaissance</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Renaissance</text>
+          </svg>
+          <div class="card-body">
+            <p class="card-text">
+              the painting, sculpture, and decorative arts of the period of European history known as the Renaissance
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+             <div class="btn-group">
+  <button type="button" class="btn btn-sm btn-outline-primary">
+    <i class="bi bi-eye"></i> View
+  </button>
+  <button type="button" class="btn btn-sm btn-outline-danger">
+    <i class="bi bi-heart"></i> Like
+  </button>
+</div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm h-100">
+          <img src="./images/seventh1.png" class="resun" alt="" />
+            <title>Abstract Art</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Abstract Art</text>
+          </svg>
+          <div class="card-body">
+            <p class="card-text">
+              Abstract art uses visual language of shape, form, color and line to create a composition which may exist with a degree of independence from visual references in the world
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+  <button type="button" class="btn btn-sm btn-outline-primary">
+    <i class="bi bi-eye"></i> View
+  </button>
+  <button type="button" class="btn btn-sm btn-outline-danger">
+    <i class="bi bi-heart"></i> Like
+  </button>
+</div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card shadow-sm h-100">
+          <img src="./images/fifth1.png" class="resun" alt="" />
+            <title>Surrealism</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Surrealism</text>
+          </svg>
+          <div class="card-body">
+            <p class="card-text">
+              Surrealism is an art and cultural movement that developed in Europe after World War I. Artists aimed to allow the unconscious mind to express itself, often resulting in the depiction of illogical or dreamlike scenes and ideas. 
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+  <button type="button" class="btn btn-sm btn-outline-primary">
+    <i class="bi bi-eye"></i> View
+  </button>
+  <button type="button" class="btn btn-sm btn-outline-danger">
+    <i class="bi bi-heart"></i> Like
+  </button>
+</div>
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm h-100">
+          <img src="./images/sixth1.png" class="resun" alt="" />
+            <title>Pop Art</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Pop Art</text>
+          </svg>
+          <div class="card-body">
+            <p class="card-text">
+              Pop art is an art movement that emerged in the United Kingdom and the United States during the mid- to late-1950s.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+  <button type="button" class="btn btn-sm btn-outline-primary">
+    <i class="bi bi-eye"></i> View
+  </button>
+  <button type="button" class="btn btn-sm btn-outline-danger">
+    <i class="bi bi-heart"></i> Like
+  </button>
+</div>
+
+              <small class="text-body-secondary">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+  <p class="mb-1">© 2025 Estilo Art Gallery</p>
+  <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+  <a href="#" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
+  <a href="#" class="text-white mx-2"><i class="bi bi-twitter-x"></i></a>
+</footer>
+</html>
